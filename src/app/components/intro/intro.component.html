@@ -1,0 +1,7 @@
+<div #introEl *ngIf="!isAnimationFinished" class="intro">
+  <h1 #introTextEl>
+    <span *ngFor="let char of introText.split('')" class="intro__char">{{
+      char
+    }}</span>
+  </h1>
+</div>
